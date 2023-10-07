@@ -21,7 +21,6 @@ void markParents(BinaryTreeNode<int> *root, unordered_map<BinaryTreeNode<int> *,
         }
     }
 }
-
 vector<BinaryTreeNode<int> *> printNodesAtDistanceK(BinaryTreeNode<int> *root, BinaryTreeNode<int> *target, int k)
 {
     unordered_map<BinaryTreeNode<int> *, BinaryTreeNode<int> *> parent_track;
